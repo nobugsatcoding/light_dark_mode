@@ -189,12 +189,12 @@ p {
   
 .fa-brands:hover {
     color: var(--on-background);
-    transition: 0.75s ease;
+    transition: 1s ease-in-out;
     transform: scale(1.5) rotate(360deg);
 }
 
 .fa-brands:active {
     color: var(--secondary-color);
     transform: scale(0.5);
-    transition: 0.1s;
+    transition: 0.35s ease;
 }

@@ -52,6 +52,7 @@ h2 {
     font-size: 32px;
     font-weight: normal;
     color: var(--on-background-alt);
+    text-align: center;
 }
 
 /* Navigation */
@@ -104,12 +105,12 @@ a:active {
     width: auto;
     background: var(--background);
     box-shadow: var(--box-shadow);
-  }
+}
   
-  img {
+img {
     height: 300px;
     width: 300px;
-  }
+}
 
 /* Projects Section */
 .buttons {
@@ -166,7 +167,7 @@ button:hover:not(.outline) {
 .text-box {
     width: 40%;
     text-align: justify;
-    background: rgb(0 0 0 / 50%);
+    background: rgba(120, 120, 120, 0.5);
     color: var(--on-primary);
     border-radius: 10px;
     padding: 30px;
@@ -272,4 +273,11 @@ input:checked + .slider::before {
 .fas {
     font-size: 30px;
     margin-right: 5px;
+}
+
+.text-box {
+    width: 40%;
+    text-align: justify;
+    background: rgba(138, 130, 130, 0.5);
+    color: var(--on-background-alt);
 }
